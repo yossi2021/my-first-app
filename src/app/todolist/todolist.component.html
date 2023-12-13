@@ -1,0 +1,10 @@
+<p>
+  {{title}}
+</p>
+<ul>
+  <app-listitem
+  *ngFor="let car of cars; let i = index"
+  [item]="car"
+  ></app-listitem>
+  <!-- <li *ngFor="let car of cars">{{car}}</li> -->
+</ul>
